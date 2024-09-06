@@ -3161,7 +3161,7 @@ div#scrollbar::-webkit-scrollbar-thumb {
       .header-section .header-area .main-menu {
         min-width: 850px; } }
     .header-section .header-area .main-menu ul.menu {
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center; }
       .header-section .header-area .main-menu ul.menu li {
         padding: 18px 0; }
