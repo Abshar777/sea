@@ -1,0 +1,84 @@
+<div  class="mobile-menu">
+    <nav style="    background: #ffffff7d;
+    backdrop-filter: blur(10px);" class="mobile-header primary-menu d-xl-none">
+        <div class="header-logo">
+            <a style="height:4rem ; width: 6rem;" href="index.html">
+                <%- include("./logo.ejs")%>
+            </a>
+        </div>
+        <div class="header-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <nav class="menu">
+        <div class="mobile-menu-area d-xl-none">
+            <div class="mobile-menu-area-inner" id="scrollbar">
+
+                <ul class="m-menu">
+                    <li>
+                        <a href="/">Home</a>
+                       
+                    </li>
+                    <li>
+                        <a href="/Products">Products</a>
+                      
+                    </li>
+                    <li>
+                        <a href="/Services">Services</a>
+                       
+                    </li>
+                    <!-- <li>
+                        <a href="/Projects">Projects</a>
+                        
+                    </li> -->
+                    <li>
+                        <a href="/About">About Us</a>
+                       
+                    </li>
+                    <li>
+                        <a href="/Contact">Contact Us</a>
+                     
+                    </li>
+                    <!-- <li>
+                        <a href="contact-us.html">Special offer</a>
+                    </li> -->
+                </ul>
+
+                <!-- <ul class="social-link-list d-flex flex-wrap">
+                    <li><a href="#" class="facebook"><i class=" fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="twitter-sm"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#" class="google"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul> -->
+            </div>
+        </div>
+    </nav>
+</div>
+<style>
+    @font-face {
+        font-family: intgral;
+        src: url(/fonts/IntegralCF-Bold.otf);
+    }
+    @font-face {
+        font-family: Dm;
+        src: url(/fonts/DMSans_18pt-Medium.ttf);
+    }
+    *{
+        font-family: Dm;
+    }
+    #m-menuT{
+        font-family: Dm !important;
+    }
+    .integral{
+        font-family: intgral !important;
+        
+    }
+    .btn-ghost{
+        color: #5F493E;
+        background-color: white;
+        border-radius: 10px;
+        padding:.3rem 1rem;
+    }
+ </style>

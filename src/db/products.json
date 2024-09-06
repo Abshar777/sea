@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/images/project/seae brush.jpg",
+    "name": "Wooden Tooth Brushes",
+    "description": "Upgrade your grooming routine with our elegant wooden brush, designed to effortlessly detangle and smooth your hair with minimal static. Crafted from high-quality, sustainable wood, it offers both durability and a touch of luxury",
+    "price":""
+  },
+  {
+    "img": "/images/project/sea comb.jpg",
+    "name": "Wooden Neem Comb",
+    "description": "Discover the elegance and sustainability of our handcrafted wooden comb, designed to enhance your grooming routine with a touch of natural beauty. Made from premium, eco-friendly wood, this comb glides smoothly through your hair, reducing static and promoting healthy, tangle-free strands",
+    "price":""
+  },
+  {
+    "img": "/images/project/seae bottle.jpg",
+    "name": "Wooden Water Bottle",
+    "description": "Elevate your hydration experience with our eco-friendly wooden water bottle, meticulously crafted to combine style and sustainability. Its natural wood exterior provides a unique, sleek look while keeping your beverages cool and fresh",
+    "price":""
+  },
+  {
+    "img": "/images/project/seae tc.jpg",
+    "name": "Wooden Tongue Cleaner",
+    "description": " Refresh your oral hygiene with our premium wooden tongue cleaner, expertly crafted to support a natural and effective cleaning routine. Its smooth, ergonomic design ensures gentle yet thorough removal of bacteria and debris, promoting a cleaner, healthier mouth.",
+    "price":""
+  }
+]
