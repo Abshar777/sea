@@ -2479,6 +2479,7 @@ p > object:only-child {
     .section-header h2 span {
       font-weight: 400; }
   .section-header:after {
+    opacity: 0;
     height: 11px;
     width: 155px;
     top: 94%;
@@ -4761,6 +4762,7 @@ div#scrollbar::-webkit-scrollbar-thumb {
     height: 100%;
     top: 0;
     left: 0;
+    display: none;
     background: #ffffffe0;
     transform: scale(0);
     -webkit-transition: all 0.3s ease;

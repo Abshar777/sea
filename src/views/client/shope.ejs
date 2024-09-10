@@ -24,13 +24,10 @@
 				<div class="container">
 					<div class="page-header-content">
 						<div class="page-header-title">
-							<h2 style=" font-family: intgral;">Products Page</h2>
-							<h2><span>Our Most Popular Products Page</span></h2>
+							<h2 style=" font-family: intgral;">OUR PRODUCTS</h2>
+						
 						</div>
-						<ul class="breadcamp">
-							<li><a href="/"><i class="fas fa-home"></i> Home</a></li>
-							<li><a href="#">Products</a></li>
-						</ul>
+					
 					</div>
 				</div>
 			</div>
@@ -54,30 +51,30 @@
 							<% for(let i=0;i<products.length;i++){ %>
 								<div class="col-lg-4 col-md-6 col-12">
 								<div class="product-item">
-									<div style="border-radius: 20px;" class="product-thumb">
-										<img id="img<%=i%>" src="<%=products[i].img%>" alt="shope">
-										<div class="product-action-link">
-											<a onclick="changeCont(this,'<%=i%>')" data-det='<%=products[i]%>' class="view-modal" data-target="#quick_view"><i class="far fa-eye"></i></a>
+									<div  style="border-radius: 20px; cursor: pointer;" class="product-thumb">
+										<img onclick="changeCont(this,'<%=i%>')" data-det='<%=products[i]%>' class="view-modal" data-target="#quick_view" id="img<%=i%>" src="<%=products[i].img%>" alt="shope">
+										<!-- <div class="product-action-link">
+											<a ><i class="far fa-eye"></i></a>
 											<a href="#"><i class="far fa-heart"></i></a>
 											<a href="#"><i class="fas fa-cart-plus"></i></a>
-										</div>
+										</div> -->
 									</div>
 									<div class="product-content">
 										<h5 style="font-family: intgral;"><a href="#" id="name<%=i%>"><%=products[i].name%></a></h5>
 										<p>
 											<!-- <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> -->
 										</p>
-										<h6 id="price<%=i%>">$200</h6>
+										<h6 id="price<%=i%>">                               <a href="https://wa.me/c/918489643999" class="custom-btn" style="font-family: Dm;">Buy Now </a></h6>
 									</div>
 								</div>
 								<div class="product-list-item">
-									<div style="border-radius: 20px;" class="product-thumb">
-										<img src="<%=products[i].img%>" alt="shope">
-										<div class="product-action-link">
+									<div style="border-radius: 20px; cursor: pointer;" class="product-thumb">
+										<img onclick="changeCont(this,'<%=i%>')" data-det='<%=products[i]%>' class="view-modal" data-target="#quick_view" src="<%=products[i].img%>" alt="shope">
+										<!-- <div class="product-action-link">
 											<a onclick="changeCont('<%=products[i]%>')" class="view-modal" data-target="#quick_view"><i class="far fa-eye"></i></a>
 											<a href="#"><i class="far fa-heart"></i></a>
 											<a href="#"><i class="fas fa-cart-plus"></i></a>
-										</div>
+										</div> -->
 									</div>
 									<div class="product-content">
 										<h5><a href="#"><%=products[i].name%></a></h5>
@@ -85,7 +82,7 @@
 											<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
 										</p> -->
 										<h6>
-											$200
+											<a href="https://wa.me/c/918489643999" class="custom-btn" style="font-family: Dm;">Buy Now </a>
 										</h6>
 										<p id="description<%=i%>">
 											<%=products[i].description%>
@@ -133,7 +130,7 @@
 															<input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
 															<div class="inc qtybutton">+</div>
 														</div> -->
-														<a href="#" style="border-radius: 15px;" class="custom-btn">buy now <i class="fas fa-cart"></i></a>
+														<a href="https://wa.me/c/918489643999" style="border-radius: 15px;" class="custom-btn">buy now <i class="fas fa-cart"></i></a>
 													</div>
 												</div>
 											</div>
@@ -314,6 +311,9 @@
 		</section>
 		<!-- Shop Page Section ending here -->
 
+		  <!-- testimonial section start here -->
+		  <%- include('../layouts/testimonial.ejs') %>
+		  <!-- testimonial section ending -->
 
         <!-- footer section start here -->
         <%- include('../layouts/footer.ejs') %>
