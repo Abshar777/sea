@@ -1,6 +1,7 @@
 const express=require("express");
 const router=express.Router();
 const productsDb=require('../db/products.json')
+const volunteerDB=require('../db/volenteer.json');   
 
 
 router.get('/',(req,res)=>{
@@ -8,7 +9,8 @@ router.get('/',(req,res)=>{
 })
 
 router.get('/About',(req,res)=>{
-    res.render("client/about")
+    const volenteer=volunteerDB
+    res.render("client/about",{volenteer:volenteer.teams})
 })
 
 router.get('/Contact',(req,res)=>{
@@ -17,7 +19,6 @@ router.get('/Contact',(req,res)=>{
 
 router.get('/Products',(req,res)=>{
     const products=productsDb
-    console.log(products)
     res.render("client/shope",{products})
 })
 

@@ -60,11 +60,11 @@
 										</div> -->
 									</div>
 									<div class="product-content">
-										<h5 style="font-family: intgral;"><a href="#" id="name<%=i%>"><%=products[i].name%></a></h5>
+										<h5 style="font-family: intgral;"><a  id="name<%=i%>"><%=products[i].name%></a></h5>
 										<p>
 											<!-- <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> -->
 										</p>
-										<h6 id="price<%=i%>">                               <a href="https://wa.me/c/918489643999" class="custom-btn" style="font-family: Dm;">Buy Now </a></h6>
+										<h6 id="price<%=i%>">                               <a onclick="changeCont(this,'<%=i%>')" data-det='<%=products[i]%>'  data-target="#quick_view"    class="custom-btn view-modal" style="font-family: Dm; color: white; cursor: pointer;">Buy Now </a></h6>
 									</div>
 								</div>
 								<div class="product-list-item">
@@ -77,12 +77,12 @@
 										</div> -->
 									</div>
 									<div class="product-content">
-										<h5><a href="#"><%=products[i].name%></a></h5>
+										<h5 onclick="changeCont(this,'<%=i%>')" data-det='<%=products[i]%>' class="view-modal" data-target="#quick_view"><a ><%=products[i].name%></a></h5>
 										<!-- <p>
 											<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
 										</p> -->
 										<h6>
-											<a href="https://wa.me/c/918489643999" class="custom-btn" style="font-family: Dm;">Buy Now </a>
+											<a onclick="changeCont(this,'<%=i%>')" data-det='<%=products[i]%>'  data-target="#quick_view" class="custom-btn view-modal" style="font-family: Dm; color: white; cursor: pointer;">Buy Now </a>
 										</h6>
 										<p id="description<%=i%>">
 											<%=products[i].description%>
@@ -130,7 +130,8 @@
 															<input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
 															<div class="inc qtybutton">+</div>
 														</div> -->
-														<a href="https://wa.me/c/918489643999" style="border-radius: 15px;" class="custom-btn">buy now <i class="fas fa-cart"></i></a>
+														<a href="https://wa.me/c/918489643999" style="border-radius: 15px;" class="custom-btn">UAE shop <i class="fas fa-cart"></i></a>
+														<a href="https://wa.me/c/971565907311" style="border-radius: 15px;" class="custom-btn">INDIA shop <i class="fas fa-cart"></i></a>
 													</div>
 												</div>
 											</div>

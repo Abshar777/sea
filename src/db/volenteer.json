@@ -1,0 +1,101 @@
+{
+    "teams": [
+      {
+        "teamName": "Leadership Team",
+        "members": [
+          {
+            "name": "Eng. Fezin Mohammed Fajy",
+            "position": "Chief Executive Officer (CEO), Founder",
+            "img": "/images/volunteer/fezin.jpeg"
+          },
+          {
+            "name": "Eng. Gabriel Dsilva",
+            "position": "Chief Operations Officer (COO), Cofounder, Head of Finance",
+            "img": "/images/volunteer/gabril.jpg"
+          },
+          {
+            "name": "Eng. Mikhael Dsilva",
+            "position": "Chief Sales & Marketing Officer (CSMO), Cofounder",
+            "img": "/images/volunteer/unknown.jpeg"
+          },
+          {
+            "name": "Mr. Sudheesh Suresh",
+            "position": "Chief Procurement Officer (CPO), Cofounder",
+            "img": "/images/volunteer/Mr. Sudheesh Suresh.jpeg"
+          }
+        ]
+      },
+      {
+        "teamName": "Operations & Finance",
+        "members": [
+          {
+            "name": "Eng. Gabriel Dsilva",
+            "position": "Chief Operations Officer (COO), Head of Finance",
+            "img": "/images/volunteer/gabril.jpg"
+          },
+          {
+            "name": "Ms. Fabiya NM",
+            "position": "Operations Executive (Manages supply chain, product packing, and shipping)",
+            "img": "/images/volunteer/unknown.jpeg"
+          },
+          {
+            "name": "Ms. Ashwaq J Shaj",
+            "position": "Operations Assistant",
+            "img": "/images/volunteer/unknown.jpeg"
+          },
+          {
+            "name": "Dr. Daniel Dsilva",
+            "position": "Finance Manager (Accounts & Profit/Loss)",
+            "img": "/images/volunteer/dani.png"
+          }
+        ]
+      },
+      {
+        "teamName": "Sales & Marketing",
+        "members": [
+          {
+            "name": "Eng. Mikhael Dsilva",
+            "position": "Chief Sales & Marketing Officer (CSMO)",
+            "img": "/images/volunteer/unknown.jpeg"
+          },
+          {
+            "name": "Eng. Nellai Mallavika B.",
+            "position": "Sales Executive",
+            "img": "/images/volunteer/malavika.jpg"
+          },
+          {
+            "name": "Ms. Thanuja",
+            "position": "Marketing Executive",
+            "img": "/images/volunteer/unknown.jpeg"
+          }
+        ]
+      },
+      {
+        "teamName": "Branding & Digital Marketing & Human Resources",
+        "members": [
+          {
+            "name": "Mr. Sarig Sibi",
+            "position": "Branding & Digital Marketing Manager",
+            "img": "/images/volunteer/unknown.jpeg"
+          },
+          {
+            "name": "Ms. Diya Allen Glawin",
+            "position": "Digital Marketing Executive",
+            "img": "/images/volunteer/Ms.Diya Allen Gladwin.jpg"
+          },
+          {
+            "name": "Eng. Yunus Ismail",
+            "position": "Head of Digital Operations",
+            "img": "/images/volunteer/yunus.jpeg"
+          },
+          {
+            "name": "Mr. Nandhu Venugopal",
+            "position": "Head of Human Resources (HR)",
+            "img": "/images/volunteer/unknown.jpeg"
+          }
+        ]
+      }
+    
+    ]
+  }
+  
