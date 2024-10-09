@@ -4,9 +4,9 @@
         "teamName": "Leadership Team",
         "members": [
           {
-            "name": "Eng. Fezin Mohammed Fajy",
+            "name": "Mr.A M Fajy",
             "position": "Chief Executive Officer (CEO), Founder",
-            "img": "/images/volunteer/fezin.jpeg"
+            "img": "/images/volunteer/unknown.jpeg"
           },
           {
             "name": "Eng. Gabriel Dsilva",
@@ -26,7 +26,7 @@
         ]
       },
       {
-        "teamName": "Operations & Finance",
+        "teamName": "Operations & Finance Team",
         "members": [
           {
             "name": "Eng. Gabriel Dsilva",
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "teamName": "Sales & Marketing",
+        "teamName": "Sales & Marketing Team",
         "members": [
           {
             "name": "Eng. Mikhael Dsilva",
@@ -71,7 +71,7 @@
         ]
       },
       {
-        "teamName": "Branding & Digital Marketing & Human Resources",
+        "teamName": "  Human Resources & Digital Operations Team",
         "members": [
           {
             "name": "Mr. Sarig Sibi",
